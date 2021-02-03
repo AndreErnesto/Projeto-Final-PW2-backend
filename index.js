@@ -12,6 +12,10 @@ app.get("/Utilizadores", (req,res) =>{
     res.send(importData)
 } ) 
 
+app.get("/Utilizadores/:Nome", (req,res) =>{
+    res.send(importData)
+} ) 
+
 
 app.post("/Utilizadores", (req,res) =>{
 
