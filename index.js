@@ -13,7 +13,7 @@ app.get("/Utilizadores", (req,res) =>{
 } ) 
 
 app.get("/Utilizadores/:Nome", (req,res) =>{
-    res.send(importData)
+    res.send(req.params.Nome)
 } ) 
 
 
