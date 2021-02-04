@@ -1,12 +1,10 @@
 [
     {
         "Nome": "adm",
-        "password": "123",
-        "Favoritos": ""
+        "password": "123"
     },
     {
         "Nome": "andre",
-        "password": "123",
-        "Favoritos": ""
+        "password": "123"
     }
 ]
